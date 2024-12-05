@@ -1,0 +1,51 @@
+
+
+h2{
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 6px 6px 16px;
+}
+
+.title{
+    color: black;
+}
+
+h3{
+    color: aqua;
+}
+
+#idTitle{
+    color: black;
+}
+
+#cardParent{
+    display: flex;
+    /* display: grid; */
+    justify-content: space-between;
+    /* grid-template-columns: repeat(5, minmax(0, 1fr)); */
+}
+
+#button1{
+    box-shadow: inset;
+    border-radius: 5px;
+}
+
+.container-main{
+    display: flex;
+}
+
+.pict{
+    border-radius: 20px;
+}
+
+.c2{
+    background-color: aquamarine;
+}
