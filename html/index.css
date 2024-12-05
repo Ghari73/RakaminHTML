@@ -12,10 +12,25 @@ h2{
     border-radius: 20px;
     text-align: center;
     box-shadow: 6px 6px 16px;
+    transition: transform .2s;
+}
+
+.card:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .title{
     color: black;
+}
+
+#salam{
+    padding-top: 30px;
+}
+
+.wm{
+    text-align: center;
 }
 
 h3{
@@ -47,5 +62,11 @@ h3{
 }
 
 .c2{
-    background-color: aquamarine;
+    background-color: rgb(145, 253, 249);
 }
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
