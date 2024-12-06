@@ -1,6 +1,6 @@
 
 
-h2{
+#salam{
     text-align: center;
 }
 
@@ -42,9 +42,12 @@ h3{
 }
 
 #cardParent{
-    display: flex;
+    display: grid;
+    column-gap: auto;
+    grid-template-columns: auto auto auto auto auto;
+    /* display: flex;
     /* display: grid; */
-    justify-content: space-between;
+    justify-content: space-between; 
     /* grid-template-columns: repeat(5, minmax(0, 1fr)); */
 }
 
@@ -70,3 +73,30 @@ body{
     font-weight: 400;
 }
 
+.portofolio{
+    padding: 50px 120px;
+}
+
+.bioData{
+    text-align: left;
+}
+
+.myPict{
+    padding-left: 30px;
+    border-radius: 50%;
+}
+
+.resume{
+background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+}
